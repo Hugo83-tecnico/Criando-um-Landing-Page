@@ -1,0 +1,159 @@
+@import url('reset.css');
+
+
+body{
+    background: black;
+}
+
+
+@import url(/assets/css/reset.css);
+
+body{
+    background-color: black;
+}
+
+section {
+    margin: 100px auto;
+
+}
+
+span{
+    color:#33A8DB;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.banner{
+    height: 600px;
+    text-align: center;
+    border-bottom: 1px solid #33A8DB;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(49, 168, 221, 0)), url('../images/banner.png');
+}
+
+.banner .banner-content{
+     width: 550px;
+     margin: auto;
+}
+
+.banner .logo{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.banner h1{
+    font-weight: 900;
+    font-size: 2.5rem;
+    color: transparent;
+    background: -webkit-linear-gradient(#33A8DB, #1472B7);
+    background-clip: text;
+    -webkit-background-clip: text;
+    margin: 0 0 30px 25px;
+}
+
+.banner p{
+    color: white;
+    font-weight: 400;
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.banner .banner-content button{
+    color:#33A8DB;
+    font-weight: bold;
+    font-size: 1.2rem;
+    background-color: transparent;
+    border-image: linear-gradient(#3BA1CD, #1572B7); 
+    border-image-slice: 10;
+    padding: 10px 50px;
+    letter-spacing: 0.2em ;  
+}
+
+#course-content{
+
+    width: 800px;
+    text-align: center;
+}
+
+#course-content h2{
+
+    font-weight: bold;
+    font-size: 2rem;
+    color: #33A8DB;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+#course-content p{
+    
+    color: white;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+#course-content .modules-list .module{
+
+    width: 530px;
+    border: 1px solid #33A8DB;
+    border-radius: 30px;
+    margin: 15px auto 20px;
+    padding: 15px;
+    color:white;
+    background-color: #252525;
+    border-radius: 100px;
+    box-shadow: inset -5px 6px 8px rgba(0, 0, 0, .7);
+}
+
+#transform-world{
+
+    height: 560px;
+    background-image: url('../images/woman-code.png');
+    background-size: cover;
+    background-attachment: fixed;
+    border-top: 1px solid #33A8DB;
+    border-bottom: 1px solid #33A8DB;
+}
+
+
+#transform-world p{
+    color: white;
+    padding: 200px;
+    max-width: 650px; 
+    text-shadow: 3px 2px #33A8DB;
+    font-size: 2.5rem;
+    font-weight: 900;
+    text-transform: lowercase;
+}
+
+#professional-challenges{
+    text-align: center;
+    width: 800px;
+}
+
+#professional-challenges h2{
+    color: #33A8DB;
+    font-weight: 700;
+    font-size: 2rem;
+    letter-spacing: 0.19em;
+}
+
+#professional-challenges p{
+    color: white;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+footer{
+    margin: 30px;
+    text-align: center;
+    border-top: 1px solid #33A8DB;
+}
+
+footer .dio-logo{
+    margin-top: 30px;
+}
+
+footer p{
+    padding-top: 15px;
+    color:white
+}
